@@ -24,7 +24,7 @@ public class StudiKasus1_20 {
         totalHarga = jumlahCup * hargaPerCup;
         diskon = 0;
 
-        if (totalHarga >= 8000) {
+        if (totalHarga >= 80000) {
             diskon = totalHarga * 7 / 100;
             totalBayar = totalHarga - diskon;
         } else {
