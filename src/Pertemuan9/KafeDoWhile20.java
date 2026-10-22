@@ -6,7 +6,7 @@ public class KafeDoWhile20 {
 
         int kopi, teh, roti;
         String namaPelanggan;
-        int hargaKopi=12000, hargaTeh=7000, hargaRoti=20000;
+        int hargaKopi=10000, hargaTeh=5000, hargaRoti=17000;
 
         do {
             System.out.print("Masukkan Nama Pelanggan (Ketik 'batal' untuk keluar): ");
