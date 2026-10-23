@@ -1,3 +1,5 @@
+// P= 20
+// Jumlah Mahasiswa= 15 + (20 mod 10)= 15 + 0= 15
 package Pertemuan9;
 import java.util.Scanner;
 public class SiakadWhile20 {

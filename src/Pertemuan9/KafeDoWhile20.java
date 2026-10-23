@@ -1,3 +1,7 @@
+// P= 20
+// Harga Kopi= 10.000 + (20 mod 5) x 1.000= 10.000 + 0 x 1.000= 10.000
+// Harga Teh= 5.000 + (20 mod 4) x 1.000= 5.000 + 0 x 1.000= 5.000
+// Harga Roti= 15.000 + (20 mod 6) x 1.000= 15.000 + 2 x 1.000= 17.000
 package Pertemuan9;
 import java.util.Scanner;
 public class KafeDoWhile20 {

@@ -1,3 +1,6 @@
+// P= 20
+// Tarif Mobil= 2.500 + (20 mod 6) x 250= 2.500 + 2 x 250= 3.000
+// Tarif Motor= 1.500 + (20 mod 6) x 250= 1.500 + 2 x 250= 2.000
 package Pertemuan9;
 import java.util.Scanner;
 public class Tugas2_20 {
@@ -21,7 +24,7 @@ public class Tugas2_20 {
             } else if (jenis!=0) {
                 System.out.println("Jenis Kendaraan tidak valid!");
             }
-            
+
         } while (jenis!=0);
 
         System.out.println("Total Pembayaran Parkir: " +total);

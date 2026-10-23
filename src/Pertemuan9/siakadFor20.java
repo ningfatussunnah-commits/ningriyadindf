@@ -1,3 +1,6 @@
+// P= 20
+// Jumlah Mahasiswa= 8 + (20 mod 5)= 8 + 0= 8
+// Batas Kelulusan= 55 + (20 mod 11)= 55 + 9= 64
 package Pertemuan9;
 
 import java.util.Scanner;
