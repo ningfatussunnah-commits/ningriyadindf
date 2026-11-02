@@ -7,9 +7,13 @@ public class Rectangle20 {
         int baris = fatus.nextInt();
         System.out.print("Masukkan jumlah kolom: ");
         int kolom = fatus.nextInt();
-        
-        for (int j = 1; j <= kolom; j++) {
-            System.out.print("*");
+
+        for (int i = 1; i <= baris; i++) {
+            for (int j = 1; j <= kolom; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
         }
+        fatus.close();
     }
 }
