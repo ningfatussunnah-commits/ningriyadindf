@@ -6,7 +6,7 @@ public class Star20 {
         System.out.print("Masukkan nilai n = ");
         int n = fatus.nextInt();
 
-        for (int i = 4; i <= n; i++) {
+        for (int i = 4; i < n; i++) {
             System.out.print("*");
         }
         System.out.println();
