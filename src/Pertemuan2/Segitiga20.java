@@ -1,3 +1,5 @@
+package Pertemuan2;
+
 import java.util.Scanner;
 public class Segitiga20 {
     public static void main(String[] args) {

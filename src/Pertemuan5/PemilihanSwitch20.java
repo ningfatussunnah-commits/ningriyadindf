@@ -5,7 +5,7 @@ public class PemilihanSwitch20 {
         Scanner sc = new Scanner (System.in);
         System.out.println("----Cetak KRS SIAKAD---");
         System.out.println("Masukkan semester saat ini: ");
-        double semester = sc.nextInt();
+        int semester = sc.nextInt();
         switch (semester) {
             case 1:
                 System.out.println("KRS Semester 1 ditampilkan");

@@ -22,7 +22,7 @@ public class PemilihanIfElse20 {
                 System.out.println("KRS Semester 6 ditampilkan");
         } else if (semester==7) {
                 System.out.println("KRS Semester 7 ditampilkan");
-        } else if1 (semester==8) {
+        } else if (semester==8) {
                 System.out.println("KRS Semester 8 ditampilkan");
         } else {
                 System.out.println("Semester tidak valid");

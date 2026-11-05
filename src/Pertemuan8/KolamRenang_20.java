@@ -1,5 +1,5 @@
 // P=20; HargaTiket1= 15000; HargaTiket2= 25000; HargaTiket3= 10000; B=8; S=18
-package UTS;
+package Pertemuan8;
 import java.util.Scanner;
 public class KolamRenang_20 {
     public static void main(String[] args) {

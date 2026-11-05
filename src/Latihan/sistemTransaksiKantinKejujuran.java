@@ -42,7 +42,7 @@ public class sistemTransaksiKantinKejujuran {
                 System.out.println("Tidak ada potongan tambahan.");
             }
         } else {
-            System.out.println("Tidak mendapat diskon.")
+            System.out.println("Tidak mendapat diskon.");
         }
 
         totBiayaAkhir = totHarga - diskon;

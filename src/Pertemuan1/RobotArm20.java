@@ -1,3 +1,5 @@
+package Pertemuan1;
+
 public class RobotArm20 {
     public static void main(String[] args) {
         System.out.println("Kondisi Awal: Nampan A = Bola Bintang, Nampan B = Bola Bulan, Nampan C = Kosong");

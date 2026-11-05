@@ -10,7 +10,7 @@ public class GajiKaryawan20 {
         double tunjMkn=400000;
         gajiPokok=fatus.nextInt();
         bonus= 0.05*gajiPokok;
-        totGaji=gajiPokok+tunjTransp+tunjMkn+bonus-0.1*gajiPokok;
+        totGaji = gajiPokok + (int) (tunjTransp + tunjMkn + bonus - (0.1 * gajiPokok));
         System.out.println("Bonus Bulanan anda adalah Rp. " +bonus);
         System.out.println("Gaji yang diterima adalah Rp. " +totGaji);
 

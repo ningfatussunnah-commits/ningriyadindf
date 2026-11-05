@@ -1,4 +1,4 @@
-package Quiz1;
+package Pertemuan4;
 import java.util.Scanner;
 public class DepotAir20 {
     public static void main(String[] args) {

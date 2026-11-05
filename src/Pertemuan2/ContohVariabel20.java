@@ -1,3 +1,5 @@
+package Pertemuan2;
+
 public class ContohVariabel20 {
     public static void main(String[] args) {
         String HobySayaAdalah = "Bermain Petak Umpet";
