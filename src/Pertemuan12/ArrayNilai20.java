@@ -12,10 +12,18 @@ public class ArrayNilai20 {
             nilaiAkhir[i] = fatus.nextInt();
         }
 
+        int jmlLulus = 0;
+        int jmlTidakLulus = 0;
         for (int i = 0; i < nilaiAkhir.length; i++){
-           if (nilaiAkhir[i] > 70) {
-           System.out.println("Mahasiswa ke-" + (i +  1) + ": " + nilaiAkhir[i] + "LULUS");
-           }
+            if (nilaiAkhir[i] > 70) {
+                System.out.println("Mahasiswa ke-" + (i + 1) + ": " + nilaiAkhir[i] + " (LULUS)");
+                jmlLulus++;
+            } else {
+                System.out.println("Mahasiswa ke-" + (i + 1) + ": " + nilaiAkhir[i] + " (TIDAK LULUS)");
+                jmlTidakLulus++;
+            }
         }
+        System.out.println("Jumlah Mahasiswa Lulus: " +jmlLulus);
+        System.out.println("Jumlah Mahasiswa Tidak Lulus: " +jmlTidakLulus);
     }
 }
