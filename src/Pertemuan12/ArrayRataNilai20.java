@@ -32,5 +32,13 @@ public class ArrayRataNilai20 {
         } else {
             System.out.println("PERLU PENDAMPINGAN");
         }
+
+        int jmlLulus = 0;
+        for (int i = 0; i < nilaiMhs.length; i++){
+            if (nilaiMhs[i] > 70) {
+                jmlLulus++;
+            }
+        }
+        System.out.println("Jumlah Mahasiswa Lulus: " +jmlLulus);
     }
 }
