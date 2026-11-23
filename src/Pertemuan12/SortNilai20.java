@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class SortNilai20 {
     public static void main(String[] args) {
         
-        int[] nilai = {78, 65, 90, 55, 88, 72};
+        int[] nilai = {20, 35, 12, 50, 0, 25};
         for (int i = 0; i < nilai.length - 1; i++) {
             for (int j = 0; j < nilai.length - 1 - i; j++) {
                 if (nilai[j] > nilai[j + 1]) {
