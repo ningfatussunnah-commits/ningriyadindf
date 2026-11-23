@@ -3,7 +3,11 @@ import java.util.Scanner;
 public class ArrayRataNilai20 {
     public static void main(String[] args) {
         Scanner fatus = new Scanner(System.in);
-        int[] nilaiMhs = new int[10];
+
+        System.out.print("Masukkan Jumlah Mahasiswa: ");
+        int jmlMhs = fatus.nextInt();
+        int[] nilaiMhs = new int[jmlMhs];
+
         int total = 0;
         double rata2;
 
@@ -34,7 +38,7 @@ public class ArrayRataNilai20 {
         }
 
         int jmlLulus = 0;
-        for (int i = 0; i < nilaiMhs.length; i++){
+        for (int i = 0; i < nilaiMhs.length; i++) {
             if (nilaiMhs[i] > 70) {
                 jmlLulus++;
             }
