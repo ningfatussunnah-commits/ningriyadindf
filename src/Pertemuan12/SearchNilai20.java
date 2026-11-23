@@ -4,19 +4,8 @@ import java.util.Scanner;
 
 public class SearchNilai20 {
     public static void main(String[] args) {
-        Scanner fatus = new Scanner(System.in);
-
-        System.out.print("Banyak Nilai: ");
-        int j = fatus.nextInt();
-        int[] nilai = new int[j];
-
-        for (int i = 0; i < nilai.length;i++) {
-            System.out.print("Nilai Mahasiswa ke-" + (i+1) + ": ");
-            nilai[i] = fatus.nextInt();
-        }
-
-        System.out.print("Nilai yang dicari: ");
-        int key = fatus.nextInt();
+        int[] nilai = {78,65, 90, 55, 88, 72};
+        int key = 100;
         boolean ditemukan = false;
 
         for (int i = 0; i < nilai.length; i++) {
